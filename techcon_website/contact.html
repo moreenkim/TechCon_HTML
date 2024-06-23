@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us - TechCon 2024</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Contact Information</h2>
+      <p>You can reach us through the following methods:</p>
+      <ul>
+        <li>Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></li>
+      </ul>
+
+      <h2>Find Us Here</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.015037509253!2d-122.40133868468385!3d37.7909626797561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c2e2d7b9b%3A0xc0e7f2e1c0934b0a!2s123%20TechCon%20Ave%2C%20San%20Francisco%2C%20CA%2094133%2C%20USA!5e0!3m2!1sen!2s!4v1629987234561!5m2!1sen!2s"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+
+      <h2>Contact Us Form</h2>
+      <form action="/submit_contact" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+
+  </body>
+</html>
